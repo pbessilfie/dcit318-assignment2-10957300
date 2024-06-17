@@ -7,6 +7,13 @@ namespace ConsoleApp2
     {
         void Move();
     }
+    public class Car : IMovable
+    {
+        public void Move()
+        {
+            Console.WriteLine("Car is moving");
+        }
+    }
     internal class Program3
     {
     }
