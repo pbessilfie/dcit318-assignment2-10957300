@@ -23,13 +23,6 @@ class Program1
     }
     static void Main()
     {
-        Animal myAnimal = new Animal();
-        myAnimal.MakeSound();
-
-        Dog myDog = new Dog();
-        myDog.MakeSound();
-
-        Cat myCat = new Cat();  
-        myCat.MakeSound();  
+        
     }
 }
