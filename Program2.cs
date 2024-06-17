@@ -42,7 +42,11 @@ namespace ConsoleApp2
 
         static void Main()
         {
-            Console.WriteLine("Hello World");
+            Circle myCircle = new Circle(5);
+            Console.WriteLine("Area of circle: " + myCircle.GetArea());
+
+            Rectangle myRectangle = new Rectangle(55, 36);
+            Console.WriteLine("Area of rectangle: " + myRectangle.GetArea());
         }
     }
 }
